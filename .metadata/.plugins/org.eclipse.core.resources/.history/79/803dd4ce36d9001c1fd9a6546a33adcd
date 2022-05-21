@@ -18,7 +18,6 @@ int validarPalabra(char* palabra)
 
 	for(int i = 0; i < strlen(palabra); i++)
 	{
-		printf("Probando cambios...\n");
 		while((palabra == NULL) || (strlen(palabra) < 2) || (strlen(palabra) > 19)
 			|| ((!(palabra[i] >= 65 && palabra[i] <= 90)) && (!(palabra[i] >= 97 && palabra[i] <= 122))))
 		{

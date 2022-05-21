@@ -21,7 +21,6 @@
 int inicializarTrabajos(eTrabajo vec[], int tam)
 {
     int todoOk = 0;
-	printf("Probando cambios...\n");
     if(vec != NULL && tam > 0)
     {
         for(int i=0; i < tam; i++)

@@ -11,7 +11,7 @@
 
 #include "Menu.h"
 
-int menu()
+int menus()
 {
 	int todoOk = 0;
 	int opcion;
@@ -50,7 +50,7 @@ int menu()
 }
 
 
-void confirmarSalidaMenu(char* p)
+void confirmarSalidaMenus(char* p)
 {
 	if(p != NULL)
 	{
@@ -71,9 +71,6 @@ void confirmarSalidaMenu(char* p)
 		*p = confirma;
 	}
 }
-
-
-
 
 
 

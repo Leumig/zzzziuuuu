@@ -72,7 +72,7 @@ int main() {
 	/////////////////////////
 	//eFecha fechas[TAMTR];
 	/////////////////////////
-	printf("Probando cambios...\n");
+
 	do
 	{
 		switch(menu())
@@ -122,15 +122,13 @@ int main() {
 		 case 11:
 			//Informe
 			informarNotebooksTipo(lista, TAM, tipos, TAMT, marcas, TAMM);
-			printf("Probando cambios...\n");
+
 			break;
 
 		 case 12:
 			//Informe
 			ordenarTrabajosPorFecha(listaT, TAMTR, ASC);
 			listarTrabajos(listaT, TAMTR, lista, TAM, servicios, TAMS);
-			printf("Probando cambios...\n");
-			printf("Probando cambios...\n");
 			break;
 
 		 case 13:
@@ -160,10 +158,8 @@ int main() {
 
 	}
 	while(salir != 's');
-	printf("Probando cambios...\n");
+
 	printf("Fin del programa");
-	printf("Probando cambios...\n");
-	printf("Probando cambios...\n");
 
 
 	return 0;
@@ -192,7 +188,6 @@ int informarNotebooksMarca(eNotebook vec[], int tam, eMarca marcas[], int tamMar
         printf("\n           ***   Lista de Notebooks de una marca   ***\n");
         printf("-------------------------------------------------------------------\n");
         printf("   ID             Modelo       Marca          Tipo        Precio\n");
-    	printf("Probando cambios...\n");
         printf("-------------------------------------------------------------------\n");
 
         for(int i = 0; i < tam; i++)

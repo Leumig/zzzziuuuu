@@ -18,7 +18,7 @@ int menu()
 
 	printf("  ***** MENU DE OPCIONES *****     \n\n");
 	printf("Ingrese una opción del 1 al 10: \n\n");
-	printf("Probando cambios...\n");
+
 	printf("1. ALTA NOTEBOOK\n");
 	printf("2. MODIFICAR NOTEBOOK\n");
 	printf("3. BAJA NOTEBOOK\n");

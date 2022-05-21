@@ -13,7 +13,6 @@
 
 int listarServicios(eServicio servicios[], int tam)
 {
-	printf("Probando cambios...\n");
 	int todoOk = 0;
 
 		if(servicios != NULL && tam > 0)

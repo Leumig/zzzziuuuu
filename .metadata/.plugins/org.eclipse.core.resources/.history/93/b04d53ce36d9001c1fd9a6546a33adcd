@@ -17,7 +17,7 @@ typedef struct{
 #endif /* SERVICIO_H_ */
 
 /// @brief Muestra un listado de todas las Notebooks del sistema, con su ID y descripción.
-///	printf("Probando cambios...\n");
+///
 /// @param servicios recibe el array de la estructura eServicio
 /// @param tam recibe el tamaño del array de la estructura eServicio
 /// @return devuelve 1 si funciono correctamente, y sino devuelve 0

@@ -14,7 +14,7 @@
 
 
 int validarFecha(eFecha* unaFecha)
-{	printf("Probando cambios...\n");
+{
 	int todoOk = 0;
 
 	while(!(unaFecha != NULL && (unaFecha->anio >= 1992 && unaFecha->anio <= 2052) &&
