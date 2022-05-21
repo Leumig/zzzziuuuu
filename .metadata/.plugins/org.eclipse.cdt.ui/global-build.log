@@ -1,0 +1,14 @@
+13:44:56 **** Rebuild of configuration Debug for project sasa ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Fecha.o" "..\\src\\Fecha.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Menu.o" "..\\src\\Menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tipo.o" "..\\src\\Tipo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo.o" "..\\src\\Trabajo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Marca.o" "..\\src\\Marca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Servicio.o" "..\\src\\Servicio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sasa.o" "..\\src\\sasa.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Notebook.o" "..\\src\\Notebook.c" 
+gcc -o sasa.exe "src\\Fecha.o" "src\\Marca.o" "src\\Menu.o" "src\\Notebook.o" "src\\Servicio.o" "src\\Tipo.o" "src\\Trabajo.o" "src\\Validaciones.o" "src\\sasa.o" 
+Info: Nothing to build for sasa
+Info: Nothing to build for sasa
